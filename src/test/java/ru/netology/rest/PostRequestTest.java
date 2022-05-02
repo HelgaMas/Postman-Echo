@@ -20,6 +20,6 @@ public class PostRequestTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("checking the response"));
+                .body("data", equalTo("checking response"));
     }
 }
